@@ -2,6 +2,7 @@
 type Props = {
     value: string;
     onClick: () => void;
+    id?: string;
 }
 
 export function Square ({value, onClick, ...props}: Props) {
