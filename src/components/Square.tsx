@@ -4,9 +4,9 @@ type Props = {
     onClick: () => void;
 }
 
-export function Square ({value, onClick}: Props) {
+export function Square ({value, onClick, ...props}: Props) {
     return (
-        <button className="square" onClick={onClick}>
+        <button className="square" {...props} onClick={onClick} >
             {value}
         </button>
     );

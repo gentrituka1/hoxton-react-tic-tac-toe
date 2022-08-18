@@ -51,19 +51,19 @@ export function Board (){
     return (
         <>
         <div className="board">
-            <div className="board-row">
-                <Square value={squares[0]} onClick={() => handleClick(0)}/>
-                <Square value={squares[1]} onClick={() => handleClick(1)}/>
+            <div className="board-row board-row-1">
+                <Square id="border-right" value={squares[0]} onClick={() => handleClick(0)}/>
+                <Square id="border-right" value={squares[1]} onClick={() => handleClick(1)}/>
                 <Square value={squares[2]} onClick={() => handleClick(2)}/>
             </div>
-            <div className="board-row">
-                <Square value={squares[3]} onClick={() => handleClick(3)}/>
-                <Square value={squares[4]} onClick={() => handleClick(4)}/>
+            <div className="board-row board-row-2">
+                <Square id="border-right" value={squares[3]} onClick={() => handleClick(3)}/>
+                <Square id="border-right" value={squares[4]} onClick={() => handleClick(4)}/>
                 <Square value={squares[5]} onClick={() => handleClick(5)}/>
             </div>
-            <div className="board-row">
-                <Square value={squares[6]} onClick={() => handleClick(6)}/>
-                <Square value={squares[7]} onClick={() => handleClick(7)}/>
+            <div className="board-row board-row-3">
+                <Square id="border-right" value={squares[6]} onClick={() => handleClick(6)}/>
+                <Square id="border-right" value={squares[7]} onClick={() => handleClick(7)}/>
                 <Square value={squares[8]} onClick={() => handleClick(8)}/>
             </div>
         </div>
