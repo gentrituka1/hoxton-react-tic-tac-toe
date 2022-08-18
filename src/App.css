@@ -1,7 +1,8 @@
 .App {
   padding: 20px 300px;
   display: grid;
-  place-content: center;
+  place-items: center;
+  gap: 20px;
 }
 .square{
   width: 235px;
@@ -11,6 +12,16 @@
 .board-row{
   display: grid;
   grid-auto-flow: column;
+}
+.status{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.restart{
+  width: 150px;
+  
+  padding: 20px;
 }
 
 
