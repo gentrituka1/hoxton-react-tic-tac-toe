@@ -1,0 +1,17 @@
+.App {
+  padding: 20px 300px;
+  display: grid;
+  place-content: center;
+}
+.square{
+  width: 235px;
+  height: 235px;
+  font-size: 200px;
+}
+.board-row{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+
+
